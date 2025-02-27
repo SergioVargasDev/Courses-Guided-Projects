@@ -1,67 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title>HTML and CSS for Complete Beginners: Example 3-6</title>
+    <title>HTML and CSS for Complete Beginners: Example 3-6</title>
 
-		<!-- This CSS and font is purely for presentational purposes. -->
-		<link rel="stylesheet" href="css/presentation.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- This CSS and font is purely for presentational purposes. -->
+    <link rel="stylesheet" href="css/presentation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-		<style>
-			* {
-				box-sizing: border-box;
-			}
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-			.card {
-				color: rgb(20, 41, 58);
-			}
+      .card {
+        color: rgb(20, 41, 58);
+        font-family: "Poppins", sans-serif;
+        line-height: 1.7;
+        letter-spacing: 0.1rem;
+        /* text-align: center; */
+      }
 
-			.card p {
-				color:rgba(20, 41, 58, 0.8);
-			}
+      .card p {
+        color: rgba(20, 41, 58, 0.8);
+      }
 
-			.card a {
-				color: #FF5D00;
-			}
-		</style>
-	</head>
-	<body>
-		<section class="learn">
-			<!-- Practice area start -->
+      .card a {
+        color: #ff5d00;
+        text-decoration: none;
+      }
 
-			<div class="card">
-				<img src="images/example/envelopes-bulk.svg" alt="envelopes-bulk">
+      .card h1 {
+        font-size: 2rem;
+        font-weight: 900;
+      }
 
-				<h1>Let's get in touch</h1>
+      .card p span {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
 
-				<p>
-					9 Augusta Street<br>
-					Fair Lawn, NJ 07410
-				</p>
+      .card a:hover {
+        color: black;
+      }
 
-				<hr>
+      .card a:active {
+        color: rgb(117, 108, 108);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="learn">
+      <!-- Practice area start -->
 
-				<p>
-					<span>email</span><br>
-					<a href="#">chuck@roundhouse.com</a><br>
-				</p>
+      <div class="card">
+        <img src="images/example/envelopes-bulk.svg" alt="envelopes-bulk" />
 
-				<p>
-					<span>phone</span><br>
-					<a href="#">+1-202-555-0125</a>
-				</p>
-			</div>
+        <h1>Let's get in touch</h1>
 
-			<!-- Practice area end -->
-		</section>
+        <p>
+          9 Augusta Street<br />
+          Fair Lawn, NJ 07410
+        </p>
 
-		<section class="preview" data-content="lesson 3-6: Styling Text with CSS">
-			<img width="444px" src="images/reference/address.png" alt="Reference image" />
-		</section>
-	</body>
+        <hr />
+
+        <p>
+          <span>email</span><br />
+          <a href="#">chuck@roundhouse.com</a><br />
+        </p>
+
+        <p>
+          <span>phone</span><br />
+          <a href="#">+1-202-555-0125</a>
+        </p>
+      </div>
+
+      <!-- Practice area end -->
+    </section>
+
+    <section class="preview" data-content="lesson 3-6: Styling Text with CSS">
+      <img
+        width="444px"
+        src="images/reference/address.png"
+        alt="Reference image"
+      />
+    </section>
+  </body>
 </html>

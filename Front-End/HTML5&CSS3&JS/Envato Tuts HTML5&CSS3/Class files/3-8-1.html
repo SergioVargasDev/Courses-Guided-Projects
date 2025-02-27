@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title>HTML and CSS for Complete Beginners: Example 3-8-1</title>
+    <title>HTML and CSS for Complete Beginners: Example 3-8-1</title>
 
-		<!-- This CSS and font is purely for presentational purposes. -->
-		<link rel="stylesheet" href="css/presentation.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- This CSS and font is purely for presentational purposes. -->
+    <link rel="stylesheet" href="css/presentation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-		<style>
-			.todo {
-				/* Don't worry about the first 3 properties. */
-				/* They're just used for demo purposes. */
-				display: flex;
-				gap: 24px;
-				align-items: center;
-				background-color: #F5FBFA;
-				border-left: 8px solid #00B29C;
-				padding-top: 16px;
-				padding-bottom: 16px;
-				padding-left: 32px;
-				padding-right: 32px;
-				width: 400px;
-			}
-		</style>
-	</head>
-	<body>
-		<section class="learn">
-			<!-- Practice area start -->
+    <style>
+      .todo1 {
+        /* Don't worry about the first 3 properties. */
+        /* They're just used for demo purposes. */
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        background-color: #f5fbfa;
+        border-left: 8px solid #00b29c;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 400px;
+        height: 600px;
+        box-sizing: content-box;
+      }
 
-			<h1>Today</h1>
+      .todo2 {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        background-color: #f5fbfa;
+        border-left: 8px solid #00b29c;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 400px;
+        height: 600px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="learn">
+      <!-- Practice area start -->
 
-			<div class="todo">
-				<input type="checkbox">
+      <h1>Today</h1>
 
-				<div>
-					<h2>Robert Fox Portfolio Website</h2>
-					<p>Design the landing page</p>
-				</div>
-			</div>
+      <div class="todo1">
+        <input type="checkbox" />
 
-			<br>
+        <div>
+          <h2>Robert Fox Portfolio Website</h2>
+          <p>Design the landing page</p>
+        </div>
+      </div>
 
-			<div class="todo alternative">
-				<input type="checkbox">
+      <br />
 
-				<div>
-					<h2>Robert Fox Portfolio Website</h2>
-					<p>Design the landing page</p>
-				</div>
-			</div>
+      <div class="todo2">
+        <input type="checkbox" />
 
-			<!-- Practice area end -->
-		</section>
+        <div>
+          <h2>Robert Fox Portfolio Website</h2>
+          <p>Design the landing page</p>
+        </div>
+      </div>
 
-		<section class="preview" data-content="lesson 3-8: The CSS Box Model">
-			<img width="504px" src="images/reference/todo.png" alt="Reference image" />
-		</section>
-	</body>
+      <!-- Practice area end -->
+    </section>
+
+    <section class="preview" data-content="lesson 3-8: The CSS Box Model">
+      <img
+        width="504px"
+        src="images/reference/todo.png"
+        alt="Reference image"
+      />
+    </section>
+  </body>
 </html>
