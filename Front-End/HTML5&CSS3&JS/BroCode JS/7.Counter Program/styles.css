@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ffffff, #f519c5);
+}
+
+.counter__container {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digit__label {
+  font-size: 15rem;
+}
+
+.btn {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+}
+
+.buttons__decrease {
+  background-image: linear-gradient(to right, #ffffff, #f5af19);
+}
+.buttons__increase {
+  background-image: linear-gradient(to right, #dae2d9, #5cee0e);
+}
+
+.buttons__reset {
+  background-image: linear-gradient(to right, #ffffff, #06c6e3);
+}

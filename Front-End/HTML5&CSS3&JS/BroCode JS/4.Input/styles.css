@@ -1,0 +1,24 @@
+#h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+
+.container__input {
+  margin: 0.5rem;
+}
+
+.container__btn {
+  display: block;
+}
+
+.container__btn:hover {
+  background-image: linear-gradient(to right, #f12711, #f5af19);
+}

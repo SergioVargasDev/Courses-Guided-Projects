@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form__button {
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2rem;
+}

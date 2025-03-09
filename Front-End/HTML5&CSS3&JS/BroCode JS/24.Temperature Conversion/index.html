@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <div class="form-container">
+        <h1 class="form__h1">Temperature <br />Conversion</h1>
+        <input type="number" id="formInput" class="form__input" value="0" />
+        <div class="form__radio-cel-container">
+          <input
+            type="radio"
+            id="formRadioCel"
+            class="form__radio__input-cel"
+            name="unit"
+          />
+          <label
+            for="formRadioCel"
+            class="form__radio__label form__radio__label--cel"
+            >Celcius -> Fahnreheit</label
+          >
+        </div>
+        <div class="form__radio-fah-container">
+          <input
+            type="radio"
+            id="formRadioFah"
+            class="form__radio__input--fah"
+            name="unit"
+          />
+          <label
+            for="formRadioFah"
+            class="form__radio__label form__radio__label--fah"
+            >Fahnreheit -> Celcius</label
+          >
+        </div>
+        <button
+          type="button"
+          id="formButton"
+          class="form__button"
+          onclick="convert()"
+        >
+          Submit
+        </button>
+        <p id="formResult" class="form__p"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
