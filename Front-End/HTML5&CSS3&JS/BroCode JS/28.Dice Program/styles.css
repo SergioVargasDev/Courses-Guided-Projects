@@ -1,0 +1,46 @@
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dice__H1 {
+  font-size: 3rem;
+}
+
+.wrapper-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice__input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dice__input__label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dice__input {
+  width: 30%;
+  height: 1.5rem;
+}
+
+.dice__button {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(24, 14, 229);
+  color: white;
+  cursor: pointer;
+  width: 5rem;
+}
