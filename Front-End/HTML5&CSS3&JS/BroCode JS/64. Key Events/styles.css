@@ -1,0 +1,10 @@
+.container {
+  border-style: solid;
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

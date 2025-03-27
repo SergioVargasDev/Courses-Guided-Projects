@@ -1,0 +1,9 @@
+.pokemonInput {
+  width: 10rem;
+}
+
+.pokemonSprite {
+  visibility: hidden;
+  display: block;
+  margin: 0;
+}

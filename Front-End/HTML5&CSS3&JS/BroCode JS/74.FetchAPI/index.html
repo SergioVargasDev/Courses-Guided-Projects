@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button id="btn1">START</button>
-    <button id="btn2">STOP</button>
+    <input
+      class="pokemonInput"
+      type="text"
+      id="pokemonName"
+      placeholder="Enter your pokemon name"
+    />
+    <button onclick="fetchData()">Fetch Pokemon</button>
+
+    <img src="" alt="Pokemon Sprite" id="pokemonSprite" class="pokemonSprite" />
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sergio",
+    "age": 21,
+    "Carrer": "Computer Science",
+    "hobbies": ["Football", "Reading", "Coding"]
+  },
+  {
+    "name": "Sofía",
+    "age": 22,
+    "Carrer": "Computer Science",
+    "hobbies": ["Football", "Reading", "Coding"]
+  },
+  {
+    "name": "Charles",
+    "age": 20,
+    "Carrer": "Computer Science",
+    "hobbies": ["Football", "Reading", "Coding"]
+  }
+]

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border-style: solid;
+  width: 11rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__p {
+  font-size: 2rem;
+}
